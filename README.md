@@ -63,6 +63,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+### Time Estimates:
+
+Feature 1: Display Images
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 8:10pm
+
+Finish time: 8:40pm
+
+Actual time needed to complete: 30 mins
+
+Feature 2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 7:40pm
+
+Finish time: 8:10pm
+
+Actual time needed to complete: 30 mins
+
+Feature 3: Bootstrap
+
+Estimate of time needed to complete: 25 mins
+
+Start time: Started late last night 9:50pm
+
+Finish time: Took a break and finished at 6pm
+
+Actual time needed to complete: 45 mins
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
