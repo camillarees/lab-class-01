@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
 .App {
   text-align: center;
 }
 
 .responsiveImage {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Nabla', cursive;
+  font-size: 100%;
+  margin: 20rem;
+}
+
+#favoritesButton {
+  margin: 10px;
+}
+
+#formGroup {
+  margin: 20px;
 }

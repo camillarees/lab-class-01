@@ -3,6 +3,7 @@ import HornedBeast from './HornedBeast';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import data from './data.json';
+import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component {
 
@@ -37,7 +38,7 @@ class Main extends React.Component {
             <>
             <Container>
                 <Form>
-                    <Form.Group controlId="selectedNumberOfHorns" >
+                    <Form.Group className="formGroup" >
                         <Form.Label>Filter by number of horns</Form.Label>
                         <Form.Control
                             as="select"
@@ -52,6 +53,7 @@ class Main extends React.Component {
                                 </Form>
                             </Container>
                             <Container className="Main">
+                            <Row xs={1} sm={2} md={3} lg={4} className="cardGrid">
                                 {this.props.data.map(beastObj => (
                                     <HornedBeast
                                         title={beastObj.title}
@@ -59,8 +61,9 @@ class Main extends React.Component {
                                         description={beastObj.description}
                                         showModal={this.props.handleShowModal}
                                         beastObj={beastObj} />
-                                
                                 ))}
+                                </Row>
+                                
                             </Container>
                             </>
                             )
