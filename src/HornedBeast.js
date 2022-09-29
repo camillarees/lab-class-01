@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
+import './App.css';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -23,13 +24,13 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Container>
-        <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '16rem'}}>
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.description}</Card.Text>
             <Card.Text>{this.state.clicked}</Card.Text>
             <Card.Img src={this.props.imageUrl} alt={this.props.title} title={this.props.title} onClick={this.handleShowModal}/>
-            <Button onClick={this.handleFavoriteClick} variant="primary">Favorite</Button>
+            <Button id="favoritesButton" onClick={this.handleFavoriteClick} variant="primary">Favorite</Button>
           </Card.Body>
         </Card>
       </Container>
@@ -37,6 +38,8 @@ class HornedBeast extends React.Component {
   };
 };
 
+
+    
 
 
 
