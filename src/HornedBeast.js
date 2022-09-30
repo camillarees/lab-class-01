@@ -24,12 +24,12 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Container>
-          <Card style={{ width: '16rem'}}>
+        <Card id="card" style={{ width: '16rem' }}>
           <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Title id="cardTitle"> {this.props.title}</Card.Title>
+            <Card.Img id="responsiveImage" variant="top" src={this.props.imageUrl} alt={this.props.title} title={this.props.title} onClick={this.handleShowModal} />
             <Card.Text>{this.props.description}</Card.Text>
             <Card.Text>{this.state.clicked}</Card.Text>
-            <Card.Img src={this.props.imageUrl} alt={this.props.title} title={this.props.title} onClick={this.handleShowModal}/>
             <Button id="favoritesButton" onClick={this.handleFavoriteClick} variant="primary">Favorite</Button>
           </Card.Body>
         </Card>
@@ -39,7 +39,7 @@ class HornedBeast extends React.Component {
 };
 
 
-    
+
 
 
 
