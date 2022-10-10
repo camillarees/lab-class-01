@@ -1,3 +1,43 @@
+# City Explorer
+
+**Author**: Camilla Rees
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+## Overview
+Preview a large selection of beasts with horns. Click on a beast to enhance the image and view its description. Filter beasts by the number of horns they have.
+
+## Getting Started
+[Whiteboard](https://www.figma.com/file/5JiHEvvKfL51Qo9UDmR6fV/City-Explorer-Whiteboard?node-id=0%3A1)
+
+## Architecture
+React.js
+LocationIQ API
+
+## Change Log
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
+## Credit and Collaborations
+- Hexx King
+
+## Time Estimates:
+
+### Feature 1: Display Images
+
+- Estimate of time needed to complete: 30 mins
+- Actual time needed to complete: 30 mins
+
+### Feature 2: Allow users to vote for their favorite beast
+
+- Estimate of time needed to complete: 30 mins
+- Actual time needed to complete: 30 mins
+
+### Feature 3: Bootstrap
+
+- Estimate of time needed to complete: 25 mins
+- Actual time needed to complete: 45 mins
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -63,37 +103,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-### Time Estimates:
-
-Feature 1: Display Images
-
-Estimate of time needed to complete: 30 mins
-
-Start time: 8:10pm
-
-Finish time: 8:40pm
-
-Actual time needed to complete: 30 mins
-
-Feature 2: Allow users to vote for their favorite beast
-
-Estimate of time needed to complete: 30 mins
-
-Start time: 7:40pm
-
-Finish time: 8:10pm
-
-Actual time needed to complete: 30 mins
-
-Feature 3: Bootstrap
-
-Estimate of time needed to complete: 25 mins
-
-Start time: Started late last night 9:50pm
-
-Finish time: Took a break and finished at 6pm
-
-Actual time needed to complete: 45 mins
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
