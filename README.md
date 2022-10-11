@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 09-18-2022 - Application now has images from json file displayed in a bootstrap card component with title and description
 
 ## Credit and Collaborations
-- Hexx King
+- [Hexx King](https://github.com/HexxKing)
 
 ## Time Estimates:
 
