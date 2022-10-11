@@ -3,6 +3,10 @@
 **Author**: Camilla Rees
 **Version**: 1.0.0 
 
+## Deployment
+
+[Deployed page on Netlify](https://camilla-rees-horned-beasts.netlify.app/)
+
 ## Overview
 Preview a large selection of beasts with horns. Click on a beast to enhance the image and view its description. Filter beasts by the number of horns they have.
 
