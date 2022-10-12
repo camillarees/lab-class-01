@@ -5,6 +5,7 @@ import Main from './Main.js';
 import Footer from './Footer.js';
 import SelectedBeast from './SelectedBeast.js';
 import data from './data.json';
+import Container from 'react-bootstrap/Container';
 
 
 class App extends React.Component {
@@ -37,9 +38,8 @@ class App extends React.Component {
     }
     render() {
       return (
-        <>
+        < Container className="container" >
           <div className="App">
-
             <Header />
               </div>
               <div>
@@ -49,7 +49,7 @@ class App extends React.Component {
                   beastObj={this.state.beastObj}
                 />
               </div>
-              <div>
+              <div className="body">
                 <Main 
                 // pass the state of the allBeasts array to Main
                   data={this.state.allBeasts}
@@ -63,7 +63,7 @@ class App extends React.Component {
               <div>
                 <Footer />
               </div>
-            </>
+            </Container>
             );
     }
   }

@@ -39,7 +39,7 @@ class Main extends React.Component {
             <Container>
                 <Form>
                     <Form.Group className="formGroup" >
-                        <Form.Label>Filter by number of horns</Form.Label>
+                        <Form.Label id="formLabel" >Filter by number of horns</Form.Label>
                         <Form.Control
                             as="select"
                             onChange={this.handleSelectedHorns}>
