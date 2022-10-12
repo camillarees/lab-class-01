@@ -3,6 +3,10 @@
 **Author**: Camilla Rees
 **Version**: 1.0.0 
 
+## Deployment
+
+[Deployed page on Netlify](https://camilla-rees-horned-beasts.netlify.app/)
+
 ## Overview
 Preview a large selection of beasts with horns. Click on a beast to enhance the image and view its description. Filter beasts by the number of horns they have.
 
@@ -19,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 09-18-2022 - Application now has images from json file displayed in a bootstrap card component with title and description
 
 ## Credit and Collaborations
-- [Hexx King](https://github.com/HexxKing)
+- [Hexx King](https://github.com/HexxKing), Debugging
 
 ## Time Estimates:
 
