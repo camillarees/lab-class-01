@@ -50,7 +50,7 @@ class App extends React.Component {
                 />
               </div>
               <div className="body">
-                <Main 
+                <Main
                 // pass the state of the allBeasts array to Main
                   data={this.state.allBeasts}
                   handleShowModal={this.handleShowModal}
